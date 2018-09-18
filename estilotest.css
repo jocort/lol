@@ -1,0 +1,77 @@
+/*.nombreClass
+#nombreId*/
+
+
+/* * {
+	background-color: orange;
+}*/
+body {
+	width: 760px;
+	margin: 0 auto 0  auto;
+	/*
+	otra manera
+	 margin: 0  auto;*/
+	/*
+	otra manera
+	margin-top:0; 
+	margin-right:auto;
+	margin-bottom:0;
+	margin-left:auto;*/
+}
+header{	
+	background-color: #4960aa;
+	margin-bottom:20px;
+}
+
+header h1 {
+	color: white;
+}
+
+main {
+	overflow: hidden;
+}
+
+main section {
+	background-color: #4960aa;
+	width: 420px;
+	height: 500px;
+	float: left;
+}
+
+main aside {
+	background-color: red;
+	width: 310px;
+	height: 500px;
+	float: right;
+
+}
+
+main section h4, aside h4 {
+	color: white;
+	font-size: 28px;
+}
+
+.classimg {
+	background-color: red;
+	background-image: url(img/img2/IMG_5.jpg);
+	height: 480px;
+	width: 420px;
+	margin-top: 11px;
+}
+
+.classimg:hover {
+	background-image: url(img/img2/IMG_1.jpg);
+	
+	transition-duration: 3s;
+}
+
+footer {
+	background-color: #4960aa;
+	height: 47px;
+
+}
+
+footer p {
+	font-size: 22px;
+	text-align: center;
+}
